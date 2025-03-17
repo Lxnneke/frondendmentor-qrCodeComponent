@@ -1,0 +1,1 @@
+# frondendmentor-qrCodeComponent
