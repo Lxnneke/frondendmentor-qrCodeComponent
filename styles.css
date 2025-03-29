@@ -1,0 +1,53 @@
+
+
+body {
+    background-color: hsl(212, 45%, 89%);
+    font-family: Outfit;
+}
+
+.qrBlock {
+    background-color: white;
+    border-radius: 15px;
+    width: 16vw;
+    padding: 15px;
+    margin: auto;
+    margin-top: 15vh;
+}
+
+img {
+    border-radius: 15px;
+    max-width: 100%;
+}
+
+.unofficialHeading {
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    font-size: 1.25rem;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    left: 40%;
+    right: 40%;
+}
+
+.scanQRtext {
+    color: #7d889e;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 768px){
+    .qrBlock {
+        width: 50vw;
+    }
+
+    .attribution {
+        left: 20%;
+        right: 20%;
+    }
+}
